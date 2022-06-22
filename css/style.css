@@ -1,0 +1,121 @@
+@import "./nullstyle.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400&display=swap');
+
+body {
+    height: 100%;
+    color: #555248;
+    font-size: 14px;
+    line-height: 1;
+    font-family: 'Roboto';
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+._container {
+    max-width: 1170px;
+    padding: 0px 15px;
+    margin: 0 auto;
+    box-sizing: content-box;
+}
+
+/* ------ШАПКА-------------------------------------------------------------------------------- */
+
+.header {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+}
+
+.header__container {
+    min-height: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+    color: inherit;
+
+    margin-right: 56px;
+}
+
+.header__img {
+    width: 20px;
+    height: 20px;
+}
+
+.header__img img {
+    width: auto;
+    height: 100%;
+}
+
+.header__text {
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 0.14em;
+    font-family: 'Playfair Display';
+}
+
+.header__menu {
+    display: flex;
+    align-items: center;
+    padding: 5px 0;
+}
+
+.menu__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu__item {
+
+}
+
+.menu__item:not(:last-child) {
+    margin-right: 65px;
+}
+
+.menu__link {
+    color: inherit;
+    line-height: 16px;
+}
+
+.header__icons {
+    display: flex;
+}
+
+.header__icon {
+    width: auto;
+    height: 16px;
+    display: block;
+}
+
+.header__icon:not(:last-child) {
+    margin-right: 23px;
+}
+
+.header__icon img{
+    width: auto;
+    height: 100%;
+}
+
+/* -----MAIN------------------------------------------------------------------------------ */
+.page {
+    flex: 1 1 auto;
+}
+
+
+/* ----ПОДВАЛ----------------------------------------------------------------------------- */
+
+
+

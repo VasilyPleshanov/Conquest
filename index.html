@@ -4,28 +4,68 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Conquest</title>
 </head>
 <body>
-    <header class="header">
-        <div class="header__logo">
-            <div class="header__img"><img src="img/logo.png" alt=""></div>
-            <p class="header__text">CONQUEST</p>
-        </div>
-        <nav class="header__nav">
-            <ul class="header__links">
-                <li><a href="#" class="header__link">Каталог</a></li>
-                <li><a href="#" class="header__link">Акции</a></li>
-                <li><a href="#" class="header__link">Доставка</a></li>
-                <li><a href="#" class="header__link">Контакты</a></li>
-            </ul>
-        </nav>
-        <div class="header__icons">
-            <div class="header__icon"><img src="img/icon-1.png" alt=""></div>
-            <div class="header__icon"><img src="img/icon-2.png" alt=""></div>
-            <div class="header__icon"><img src="img/icon-3.png" alt=""></div>
-        </div>
-    </header>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__container _container">
+                <a href="#" class="header__logo">
+                    <div class="header__img">
+                        <img src="img/logo.svg" alt="">
+                    </div>
+                    <p class="header__text">CONQUEST</p>
+                </a>
+
+                <nav class="header__menu menu">
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">Каталог</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">Акции</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">Доставка</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div class="header__icons">
+                    <a href="#" class="header__icon">
+                        <img src="img/icon-1.svg" alt="">
+                    </a>
+                    <a href="#" class="header__icon">
+                        <img src="img/icon-2.svg" alt="">
+                    </a>
+                    <a href="#" class="header__icon">
+                        <img src="img/icon-3.svg" alt="">
+                    </a>
+                </div>
+
+            </div>
+        </header>
+        <main class="page">
+            <section class="page__main-block main-block">
+                <div class="main-block__container _container">
+                    <div class="main_block__content-title">
+                        <h1 class="main-block__title">Весна/Лето 2019</h1>
+                        <p class="main-block__subtitle">Коллекция</p>
+                        <p class="main-block__text">Швейцарские часы в наличии в Москве и с доставкой по всему миру</p>
+                        <a href="" class="main-block__button button">Смотреть каталог</a>
+                    </div>
+                    <div class="main-block__content-image"></div>
+                    <div class="main-block__image _ibg">
+                        <img src="img/main.jpg" alt="cover">
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer"></footer>
+    </div>
 </body>
 </html>
